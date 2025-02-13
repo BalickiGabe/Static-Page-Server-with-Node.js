@@ -1,19 +1,21 @@
-# Static Page Server with Node.js
+# Simple Express Server
 
-A simple Node.js HTTP server that serves different static HTML pages based on the requested URL. This project demonstrates how to use the Node.js `http` and `fs` modules to serve static content and handle different routes.
+This is a basic Express.js web server that serves static HTML pages and handles 404 errors.
 
 ## Features
+- Serves `index.html` on the root URL (`/`)
+- Serves `contact-me.html` on `/contact-me`
+- Serves `about.html` on `/about`
+- Handles 404 errors with a custom `404.html` page
 
-- Serves static HTML pages (`index.html`, `about.html`, `contact-me.html`, and `404.html`)
-- Handles different routes to return corresponding HTML files
-- Provides a 404 page for unrecognized routes
-- Lightweight and easy to modify
+## Prerequisites
+Make sure you have the following installed on your system:
+- [Node.js](https://nodejs.org/) (v12 or later recommended)
+- [npm](https://www.npmjs.com/) (comes with Node.js)
 
 ## Installation
 
-To get started with this project, clone the repository and ensure you have Node.js installed.
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/static-page-server.git
-   cd static-page-server
+1. Clone this repository:
+   ```sh
+   git clone https://github.com/your-username/your-repo.git
+   cd your-repo
