@@ -1,0 +1,23 @@
+{
+  "name": "node_project1_odin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BalickiGabe/Node_project1_odin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BalickiGabe/Node_project1_odin/issues"
+  },
+  "homepage": "https://github.com/BalickiGabe/Node_project1_odin#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
